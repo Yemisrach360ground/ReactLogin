@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "965656120989",
+    "firebase_url": "https://reactuserauth.firebaseio.com",
+    "project_id": "reactuserauth",
+    "storage_bucket": "reactuserauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965656120989:android:bdda3018bb58ca0a",
+        "android_client_info": {
+          "package_name": "com.awesomeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965656120989-bq3e0itpmb0djbv89s250jmbe254cqcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcQJ53dtYJWiJpB_F3KVw50goDFEmtZQM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
