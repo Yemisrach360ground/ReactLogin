@@ -11,11 +11,14 @@ import {
   ActivityIndicator,
   AsyncStorage,
   StyleSheet,
-  Navigator,
   Text,
   View,
   ToolbarAndroid
 } from 'react-native';
+import {
+  Navigator
+} from 'react-native-deprecated-custom-components';
+
 import Signup from './src/pages/Signup';
 import Login from './src/pages/Login';
 import Account from './src/pages/Main';

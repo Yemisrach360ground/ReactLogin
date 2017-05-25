@@ -10,6 +10,7 @@ import { Header,Title,Container, Content, List, ListItem, InputGroup, Input, Ico
 import styles from '../styles/mainstyle.js';
 import React, {Component} from 'react';
 import Login from './Login';
+import style from '../styles/nativestyle.js';
 export default class Signup extends Component {
   constructor(props) {
     super(props);
@@ -80,11 +81,11 @@ export default class Signup extends Component {
                     </InputGroup>
                </ListItem>
               </List>
-              <Button style={styles.primaryButton} onPress={this.signup.bind(this)}>
-                Signup
+              <Button style={style.primaryButtons} onPress={this.signup.bind(this)}>
+                <Text>Signup</Text>
               </Button>
-              <Button onPress={this.goToLogin.bind(this)} style={styles.primaryButton}>
-                Go to Login
+              <Button onPress={this.goToLogin.bind(this)} style={style.primaryButtons}>
+                <Text>Go to Login</Text>
               </Button>
       </Content>
     ;

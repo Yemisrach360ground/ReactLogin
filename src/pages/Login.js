@@ -11,6 +11,7 @@ import React, {Component} from 'react';
  import Signup from './Signup';
 import Account from './Main'
 import styles from '../styles/mainstyle.js';
+import style from '../styles/nativestyle.js';
 
 export default class Login extends Component {
 
@@ -54,11 +55,11 @@ export default class Login extends Component {
                         </InputGroup>
                    </ListItem>
                   </List>
-                  <Button style={styles.primaryButton} onPress={this.login.bind(this)}>
-                    Login
+                  <Button style={style.primaryButtons} onPress={this.login.bind(this)}>
+                    <Text>Login</Text>
                   </Button>
-                  <Button onPress={this.goToSignup.bind(this)} style={styles.primaryButton}>
-                    New Here?
+                  <Button onPress={this.goToSignup.bind(this)} style={style.primaryButtons}>
+                    <Text>New Here?</Text>
                   </Button>
 
           </Content>

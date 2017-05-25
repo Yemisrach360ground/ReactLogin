@@ -15,6 +15,7 @@ import { Header,Container,Title, Content, List, ListItem, InputGroup, Input, Ico
 
 import Login from './Login';
 import styles from '../styles/mainstyle.js';
+import style from '../styles/nativestyle.js';
 
 // Styles specific to the account page
 const accountStyles = StyleSheet.create({
@@ -62,8 +63,8 @@ export default class Account extends Component {
                     <Image
                       style={styles.image}
                       source={{uri: this.state.user.photoURL}} />
-                    <Button onPress={this.logout.bind(this)} style={styles.primaryButton}>
-                      Logout
+                    <Button onPress={this.logout.bind(this)} style={style.primaryButtons}>
+                      <Text>Logout</Text>
                     </Button>
                 </Content>
       ;
